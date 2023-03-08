@@ -1,0 +1,27 @@
+footer {
+  padding: 30px 0;
+  background-color: var(--footer-bg);
+}
+
+// .footer {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   grid-gap: Min(3.636vw,40px);
+
+//   &__coll {
+//     display: flex;
+//     align-items: center;
+//     grid-gap: 20px;
+//     flex-grow: 1;
+//   }
+
+//   &__info {
+//     font-family: var(--font-family);
+//     font-style: normal;
+//     font-weight: 300;
+//     font-size: 14px;
+//     line-height: 100%;
+//     color: rgba(var(--cl-d),1.0);
+//   }
+// }
