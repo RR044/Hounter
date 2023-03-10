@@ -1,31 +1,53 @@
 header {
- background-color: rgba(var(--bg-c),1.0);
- padding: 12px 0;
- position: fixed;
- left: 0;
- width: 100%;
- top: 0;
- z-index: 20;
+    background-color: rgba(var(--bg-c), 1.0);
+    padding: 12px 0;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top: 0;
+    z-index: 20;
 }
 
-// .header {
-//   display: flex;
-//   align-items: center;
-//   grid-gap: 20px;
+.header {
 
-//   &__buttons {
-//     display: flex;
-//     align-items: center;
-//     grid-gap: 10px;
-//   }
+    &-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-//   &__wallet {
-//     width: 168px;
-//     height: 38px;
-//     flex-shrink: 0;
-//   }
 
-//   &__nav {
-//     flex-grow: 1;
-//   }
-// }
+    &__info {
+        display: flex;
+        align-items: center;
+        grid-gap: 56px;
+    }
+
+    &__ {}
+
+    &-nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        grid-gap: 24px;
+
+        &__item {
+            font-family: 'Lexend';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 18px;
+            text-transform: capitalize;
+            color: #F0F3FD;
+        }
+
+        &__btn {
+            font-family: 'Lexend';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 22px;
+            color: #047857;
+        }
+    }
+}

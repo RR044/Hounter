@@ -4,10 +4,10 @@
 }
 :root {
 // --------------- default global variable ---------------
-  --body-bg: #12192B;
-  --footer-bg: #0C1323;
+  --body-bg: #E5E5E5;
+  --footer-bg: #E5E5E5;
   --body-font-size: 16px;
-  --content-width: 1100px;
+  --content-width: 1200px;
   --content-width-mode: 1280px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
@@ -39,7 +39,7 @@
   --select-focus-border: #FDFDFD;
 
 // --------------- default font-family variable ---------------
-  --font-family: "Codec Pro" , sans-serif; // var(--font-family);
+  --font-family: "Lexend" , sans-serif; // var(--font-family);
   --font-family2: "Gilroy" , sans-serif; // var(--font-family2);
 
 
@@ -66,7 +66,7 @@
 // --------------- default background cl variable ---------------
   --bg-a: #{HexToRGB(#ffffff)}; // rgba(var(--bg-a),1.0);
   --bg-b: #{HexToRGB(#000000)}; // rgba(var(--bg-b),1.0);
-  --bg-c: #{HexToRGB(#101729)}; // rgba(var(--bg-c),1.0);
+  --bg-c: #{HexToRGB(#E5E5E5)}; // rgba(var(--bg-c),1.0);
   --bg-d: #{HexToRGB(#94A3B8)}; // rgba(var(--bg-d),1.0);
   --bg-e: #{HexToRGB(#1E6FF6)}; // rgba(var(--bg-e),1.0);
   --bg-f: #{HexToRGB(#64748B)}; // rgba(var(--bg-f),1.0);

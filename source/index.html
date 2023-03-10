@@ -6,140 +6,126 @@
   @include('partials/header.html')
 
   <main>
-<!-- 
-    <section class="roadmap-proof observer-sec" id="roadmap">
+    <section class="section-first">
       <div class="container">
-        <div class="roadmap-proof__inner">
-          <div class="main-top">
-            <h2 class="main-top__title">
-              Roadmap ProofStaking
-            </h2>
+        <section class="section-first__box" >
+          <div class="find">
+            <h1 class="find-title">find the place to<br>
+              live <b class="keywords">your dreams</b><br>
+              easily here</h1>
+            <p class="find-about">Everything you need about finding your place to live will be here, where it will be easier for you</p>
+            <p class="find-about">Our Partnership </p>
+            <ul class="find-logos">
+              <li class="find-logos__item"><div class="find-logos__box"><picture>
+                <source type='image/webp' srcset='img/s1/logo1.webp'>
+                <img width='83' height='64' src='img/s1/logo1.png' alt='image'>
+              </picture></div></li>
+              <li class="find-logos__item"><div class="find-logos__box"><picture>
+                <source type='image/webp' srcset='img/s1/logo2.webp'>
+                <img width='83' height='64' src='img/s1/logo2.png' alt='image'>
+              </picture></div></li>
+              <li class="find-logos__item"><div class="find-logos__box"><picture>
+                <source type='image/webp' srcset='img/s1/logo3.webp'>
+                <img width='83' height='64' src='img/s1/logo3.png' alt='image'>
+              </picture></div></li>
+              <li class="find-logos__item"><div class="find-logos__box"><picture>
+                <source type='image/webp' srcset='img/s1/logo4.webp'>
+                <img width='83' height='64' src='img/s1/logo4.png' alt='image'>
+              </picture></div></li>
+            </ul>
           </div>
-
-          <ul class="roadmap-proof__list">
-            <li class="roadmap-proof__item">
-                <div class="roadmap-proof__item-row">
-                  <span class="roadmap-proof__descr">
-                    launch
-                  </span>
-                  <div class="roadmap-proof__icon">
-                    <img width="40" height="40" src="img/roadmap/icon.svg" alt="icon">
-                  </div>
-                </div>
-
-                <div class="roadmap-proof__item-row">
-                  <div class="roadmap-proof__icon roadmap-proof__value">
-                    <img width="42" height="42" src="img/roadmap/icon-bg.svg" alt="icon">
-                  </div>
-                  <a href="#" class="read-more question-block__more">
-                    More
-                    <svg width='12' height='12'>
-                      <use href='img/sprite/sprite.svg#arrow-right'></use>
+          <div class="subscribers">
+            <div class="subscribers-photo">
+              <img src="/img/s1/hs1.png" alt="house">
+                <ul class="subscribers-info">
+                  <li class="subscribers-info__item">
+                    <svg width='112' height='56'>
+                      <use href='img/sprite/sprite.svg#tripple'></use>
                     </svg>
-                  </a>
+                    <div class="subscribers-about">
+                      <h3>1K+ People</h3>
+                      <p>Successfully Getting Home</p>
+                    </div>
+                  </li>
+                  <li class="subscribers-info__item"></li>
+                  <li class="subscribers-info__item"></li>
+                </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="index-second">
+          <div class="container">
+            <div class="index-second__box">
+              <div class="main-top">
+                <h4 class="main-top__title">Our Recommendation</h4>
+                <p class="main-top__about">Featured House</p>
+                <div class="default-class" data-tabs-parrent>
+                  <ul class="tabs-nav">
+                    <li class="tabs-nav__item">
+                     <button class="tabs-nav__btn" type="button" data-tab="1"></button>
+                     <button class="tabs-nav__btn" type="button" data-tab="2"></button>
+                     <button class="tabs-nav__btn" type="button" data-tab="3"></button>
+                    </li>
+                  </ul>
+                  <ul class="tabs-content">
+                    <li class="tabs-content__item" data-tab-content="1">
+                      <div class='swiper-box'>
+                        <div class='swiper-container'>
+                          <ul class='swiper-wrapper'>
+                            <li class='swiper-slide'></li>
+                          </ul>
+                        </div>
+                        <button class='swiper-button-next'></button>
+                        <button class='swiper-button-prev'></button>
+                        <span class='swiper-pagination'></span>
+                      </div>
+                    </li>
+                    <li class="tabs-content__item" data-tab-content="2">
+                      <div class='swiper-box'>
+                        <div class='swiper-container'>
+                          <ul class='swiper-wrapper'>
+                            <li class='swiper-slide'></li>
+                          </ul>
+                        </div>
+                        <button class='swiper-button-next'></button>
+                        <button class='swiper-button-prev'></button>
+                        <span class='swiper-pagination'></span>
+                      </div>
+                    </li>
+                    <li class="tabs-content__item" data-tab-content="3">
+                      <div class='swiper-box'>
+                        <div class='swiper-container'>
+                          <ul class='swiper-wrapper'>
+                            <li class='swiper-slide'></li>
+                          </ul>
+                        </div>
+                        <button class='swiper-button-next'></button>
+                        <button class='swiper-button-prev'></button>
+                        <span class='swiper-pagination'></span>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
-            </li>
-
-
-            <li class="roadmap-proof__item">
-              <div class="roadmap-proof__item-row">
-                <span class="roadmap-proof__descr">
-                  Adding New Coins for Mining
-                </span>
-                <div class="roadmap-proof__icon">
-                  <img width="40" height="40" src="img/roadmap/icon2.svg" alt="icon">
-                </div>
-              </div>
-
-              <div class="roadmap-proof__item-row">
-                <div class="roadmap-proof__icon roadmap-proof__value">
-                  <img width="42" height="42" src="img/roadmap/icon-bg.svg" alt="icon">
-                </div>
-                <a href="#" class="read-more question-block__more">
-                  More
-                  <svg width='12' height='12'>
-                    <use href='img/sprite/sprite.svg#arrow-right'></use>
-                  </svg>
-                </a>
-              </div>
-          </li>
-
-          <li class="roadmap-proof__item">
-            <div class="roadmap-proof__item-row">
-              <span class="roadmap-proof__descr">
-                Creation and Launch of Our Token
-              </span>
-              <div class="roadmap-proof__icon">
-                <img width="40" height="40" src="img/roadmap/icon3.svg" alt="icon">
               </div>
             </div>
+          </div>
+        </section>
 
-            <div class="roadmap-proof__item-row">
-              <div class="roadmap-proof__icon roadmap-proof__value">
-                <img width="42" height="42" src="img/roadmap/icon-bg.svg" alt="icon">
+
+        <section class="index-third">
+          <div class="container">
+            <div class="index-second__box">
+              <div class="main-top">
+                <h4 class="main-top__title">Ready to Sell!</h4>
+                <p class="main-top__about">Let’s tour and see our house!</p>
+                <span class="main-top__info">Houses recommended by our partners that have been curated to become the home of your dreams!</span>
               </div>
-              <a href="#" class="read-more question-block__more">
-                More
-                <svg width='12' height='12'>
-                  <use href='img/sprite/sprite.svg#arrow-right'></use>
-                </svg>
-              </a>
-            </div>
-        </li>
-
-        <li class="roadmap-proof__item">
-          <div class="roadmap-proof__item-row">
-            <span class="roadmap-proof__descr">
-              Add Mining of Our Token Inside the Site
-            </span>
-            <div class="roadmap-proof__icon">
-              <img width="40" height="40" src="img/roadmap/icon4.svg" alt="icon">
             </div>
           </div>
-
-          <div class="roadmap-proof__item-row">
-            <div class="roadmap-proof__icon roadmap-proof__value">
-              <img width="42" height="42" src="img/roadmap/icon-bg.svg" alt="icon">
-            </div>
-            <a href="#" class="read-more question-block__more">
-              More
-              <svg width='12' height='12'>
-                <use href='img/sprite/sprite.svg#arrow-right'></use>
-              </svg>
-            </a>
-          </div>
-      </li>
-      <li class="roadmap-proof__item">
-        <div class="roadmap-proof__item-row">
-          <span class="roadmap-proof__descr">
-            Listing of the Token on the Exchange
-            Listing of the Token on the Exchange
-          </span>
-          <div class="roadmap-proof__icon">
-            <img width="40" height="40" src="img/roadmap/icon5.svg" alt="icon">
-          </div>
-        </div>
-
-        <div class="roadmap-proof__item-row">
-          <div class="roadmap-proof__icon roadmap-proof__value">
-            <img width="42" height="42" src="img/roadmap/icon-bg.svg" alt="icon">
-          </div>
-          <a href="#" class="read-more question-block__more">
-            More
-            <svg width='12' height='12'>
-              <use href='img/sprite/sprite.svg#arrow-right'></use>
-            </svg>
-          </a>
-        </div>
-    </li>
-
-          </ul>
-
-        </div>
+        </section>
       </div>
-    </section> -->
-
-
+    </section>
   </main>
 
   @include('partials/footer.html')

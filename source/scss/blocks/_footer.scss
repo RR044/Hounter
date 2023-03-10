@@ -3,25 +3,45 @@ footer {
   background-color: var(--footer-bg);
 }
 
-// .footer {
-//   display: flex;
-//   align-items: center;
-//   justify-content: space-between;
-//   grid-gap: Min(3.636vw,40px);
+.footer {
 
-//   &__coll {
-//     display: flex;
-//     align-items: center;
-//     grid-gap: 20px;
-//     flex-grow: 1;
-//   }
+  &__box {
+    display: flex;
+  }
 
-//   &__info {
-//     font-family: var(--font-family);
-//     font-style: normal;
-//     font-weight: 300;
-//     font-size: 14px;
-//     line-height: 100%;
-//     color: rgba(var(--cl-d),1.0);
-//   }
-// }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+  }
+
+  &__info {
+    display: flex;
+    grid-gap: 12px;
+  }
+
+
+  &__about {
+    max-width: 320px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    /* MRT App / Neutral 01 */
+
+    color: #626687;
+
+    opacity: 0.75;
+  }
+  &__social {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 24px;
+  }
+}
+
+

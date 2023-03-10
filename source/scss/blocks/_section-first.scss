@@ -1,0 +1,44 @@
+.section-first {
+    &__box {
+        display: flex;
+    }
+}
+.find {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    grid-gap: 24px;
+
+    &-title {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+        text-transform: capitalize;
+        color: #1B1C57;
+    }
+
+    &-about {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #626687;
+        opacity: 0.75;
+    }
+
+    &-logos {
+        display: flex;
+        align-items: center;
+        grid-gap: 32px;
+    }
+}
+
+.keywords {
+    color: transparent;
+    -webkit-text-stroke: 1px #1B1C57;;
+}
