@@ -1,0 +1,55 @@
+.houseCard {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    grid-gap: 24px;
+
+
+
+    &__info {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgba(var(--cl-c),1.0);
+    }
+
+    &__cost {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 32px;
+        color: rgba(var(--cl-d),1.0);
+    }
+
+    &__owner {
+        display: flex;
+        grid-gap: 16px;
+    }
+
+    &__name {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__surname {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: rgba(var(--cl-c),1.0);
+    }
+
+    &__city {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: rgba(var(--cl-e),1.0);
+    }
+}

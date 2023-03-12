@@ -7,7 +7,7 @@
 // import './components/tabs';
 // import './components/select';
 // import './components/replaceEl';
-// import './components/accordions';
+import './components/accordions';
 // import './components/anchor';
 // import './components/game';
 // import './components/observer';
