@@ -1,0 +1,10 @@
+.house-commentary {
+    display: flex;
+    grid-gap: 50px;
+    
+    &__list {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 40px;
+    }
+}

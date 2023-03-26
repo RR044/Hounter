@@ -1,0 +1,11 @@
+.detail {
+    max-width: 440px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        grid-gap: 16px;
+    }
+}

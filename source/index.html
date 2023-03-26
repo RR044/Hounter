@@ -6,225 +6,532 @@
   @include('partials/header.html')
 
   <main>
-    <section class="section-first">
+
+
+    <section class="index-first">
       <div class="container">
-        <section class="section-first__box" >
+        <div class="section-first__box">
           <div class="find">
             <h1 class="find-title">find the place to<br>
               live <b class="keywords">your dreams</b><br>
               easily here</h1>
-            <p class="find-about">Everything you need about finding your place to live will be here, where it will be easier for you</p>
+            <p class="find-about">Everything you need about finding your place to live will be here, where it will be
+              easier for you</p>
             <p class="find-about">Our Partnership </p>
             <ul class="find-logos">
-              <li class="find-logos__item"><div class="find-logos__box"><picture>
-                <source type='image/webp' srcset='img/s1/logo1.webp'>
-                <img width='83' height='64' src='img/s1/logo1.png' alt='image'>
-              </picture></div></li>
-              <li class="find-logos__item"><div class="find-logos__box"><picture>
-                <source type='image/webp' srcset='img/s1/logo2.webp'>
-                <img width='83' height='64' src='img/s1/logo2.png' alt='image'>
-              </picture></div></li>
-              <li class="find-logos__item"><div class="find-logos__box"><picture>
-                <source type='image/webp' srcset='img/s1/logo3.webp'>
-                <img width='83' height='64' src='img/s1/logo3.png' alt='image'>
-              </picture></div></li>
-              <li class="find-logos__item"><div class="find-logos__box"><picture>
-                <source type='image/webp' srcset='img/s1/logo4.webp'>
-                <img width='83' height='64' src='img/s1/logo4.png' alt='image'>
-              </picture></div></li>
+              <li class="find-logos__item">
+                <div class="find-logos__box">
+                  <picture>
+                    <source type='image/webp' srcset='img/s1/logo1.webp'>
+                    <img width='83' height='64' src='img/s1/logo1.png' alt='image'>
+                  </picture>
+                </div>
+              </li>
+              <li class="find-logos__item">
+                <div class="find-logos__box">
+                  <picture>
+                    <source type='image/webp' srcset='img/s1/logo2.webp'>
+                    <img width='83' height='64' src='img/s1/logo2.png' alt='image'>
+                  </picture>
+                </div>
+              </li>
+              <li class="find-logos__item">
+                <div class="find-logos__box">
+                  <picture>
+                    <source type='image/webp' srcset='img/s1/logo3.webp'>
+                    <img width='83' height='64' src='img/s1/logo3.png' alt='image'>
+                  </picture>
+                </div>
+              </li>
+              <li class="find-logos__item">
+                <div class="find-logos__box">
+                  <picture>
+                    <source type='image/webp' srcset='img/s1/logo4.webp'>
+                    <img width='83' height='64' src='img/s1/logo4.png' alt='image'>
+                  </picture>
+                </div>
+              </li>
             </ul>
           </div>
           <div class="subscribers">
             <div class="subscribers-photo">
               <img src="/img/s1/hs1.png" alt="house">
-                <ul class="subscribers-info">
-                  <li class="subscribers-info__item">
-                    <svg width='112' height='56'>
-                      <use href='img/sprite/sprite.svg#tripple'></use>
-                    </svg>
-                    <div class="subscribers-about">
-                      <h3>1K+ People</h3>
-                      <p>Successfully Getting Home</p>
-                    </div>
-                  </li>
-                  <li class="subscribers-info__item"></li>
-                  <li class="subscribers-info__item"></li>
-                </ul>
+              <ul class="subscribers-info">
+                <li class="subscribers-info__item">
+                  <svg width='112' height='56'>
+                    <use href='img/sprite/sprite.svg#tripple'></use>
+                  </svg>
+                  <div class="subscribers-about">
+                    <h3>1K+ People</h3>
+                    <p>Successfully Getting Home</p>
+                  </div>
+                </li>
+                <li class="subscribers-info__item"></li>
+                <li class="subscribers-info__item"></li>
+              </ul>
             </div>
           </div>
-        </section>
-
-        <section class="index-second">
-          <div class="container">
-            <div class="index-second__box">
-              <div class="main-top">
-                <h4 class="main-top__title">Our Recommendation</h4>
-                <p class="main-top__about">Featured House</p>
-                <div class="houseCard">
-                  <div class="houseCard__image">
-                    <picture>
-                      <source type='image/webp' srcset='img/s2/hs2-1.webp'>
-                      <img width='340' height='382' src='img/s2/hs2-1.png' alt='house'>
-                    </picture>
-                  </div>
-                  <div class="houseCard__info">Roselands House
-                    <div class="houseCard__cost">
-                      <span>$</span><span>35.000.000</span>
-                    </div>
-                  </div>
-                  <div class="houseCard__owner">
-                    <picture>
-                      <source type='image/webp' srcset='img/s2/face1.webp'>
-                      <img width='40' height='40' src='img/s2/face1.png' alt='image'>
-                    </picture>
-                    <div class="houseCard__name">
-                      <p class="houseCard__surname">Dianne Russell</p>
-                      <p class="houseCard__city">Manchester, Kentucky</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="default-class" data-tabs-parrent>
-                  <ul class="tabs-nav">
-                    <li class="tabs-nav__item">
-                     <button class="tabs-nav__btn" type="button" data-tab="1"><div><svg width='24' height='24'>
-                       <use href='img/sprite/sprite.svg#house-fill'></use>
-                     </svg><span>House</span></div></button>
-                     <button class="tabs-nav__btn" type="button" data-tab="2"><div><svg width='24' height='24'>
-                      <use href='img/sprite/sprite.svg#villa'></use>
-                    </svg><span>Villa</span></div></button>
-                     <button class="tabs-nav__btn" type="button" data-tab="3"><div><svg width='24' height='24'>
-                      <use href='img/sprite/sprite.svg#apartment'></use>
-                    </svg><span>Apartment</span></div></button>
-                    </li>
-                  </ul>
-                  <ul class="tabs-content">
-                    <li class="tabs-content__item" data-tab-content="1">
-                      <div class='swiper-box'>
-                        <div class='swiper-container'>
-                          <ul class='swiper-wrapper'>
-                            <li class='swiper-slide'>
-                              <div class="houseCard">
-                                <div class="houseCard__image">
-                                  <picture>
-                                    <source type='image/webp' srcset='img/s2/hs2-1.webp'>
-                                    <img width='340' height='382' src='img/s2/hs2-1.png' alt='house'>
-                                  </picture>
-                                </div>
-                                <div class="houseCard__info">Roselands House</div>
-                                <div class="houseCard__cost">
-                                  <span>$</span><br><span>35.000.000</span>
-                                </div>
-                                <div class="houseCard__owner">
-                                  <svg width='40' height='40'>
-                                    <use href='img/sprite/sprite.svg#'></use>
-                                  </svg>
-                                  <div class="houseCard__name">
-                                    <p class="houseCard__surname">Dianne Russell</p>
-                                    <p class="houseCard__city">Manchester, Kentucky</p>
-                                  </div>
-                                </div>
-                              </div>
-                            </li>
-                            <li class='swiper-slide'>
-                              <div class="houseCard">
-                                <div class="houseCard__image"></div>
-                                <div class="houseCard__info"></div>
-                                <div class="houseCard__cost"></div>
-                                <div class="houseCard__owner">
-                                  <svg width='40' height='40'>
-                                    <use href='img/sprite/sprite.svg#'></use>
-                                  </svg>
-                                  <div class="houseCard__">
-                                    <p class="houseCard__surname"></p>
-                                    <p class="houseCard__city"></p>
-                                  </div>
-                                </div>
-                              </div>
-                            </li>
-                            <li class='swiper-slide'>
-                              <div class="houseCard">
-                                <div class="houseCard__image"></div>
-                                <div class="houseCard__info"></div>
-                                <div class="houseCard__cost"></div>
-                                <div class="houseCard__owner">
-                                  <svg width='40' height='40'>
-                                    <use href='img/sprite/sprite.svg#'></use>
-                                  </svg>
-                                  <div class="houseCard__">
-                                    <p class="houseCard__surname"></p>
-                                    <p class="houseCard__city"></p>
-                                  </div>
-                                </div>
-                              </div>
-                            </li>
-                            <li class='swiper-slide'>
-                              <div class="houseCard">
-                                <div class="houseCard__image"></div>
-                                <div class="houseCard__info"></div>
-                                <div class="houseCard__cost"></div>
-                                <div class="houseCard__owner">
-                                  <svg width='40' height='40'>
-                                    <use href='img/sprite/sprite.svg#'></use>
-                                  </svg>
-                                  <div class="houseCard__">
-                                    <p class="houseCard__surname"></p>
-                                    <p class="houseCard__city"></p>
-                                  </div>
-                                </div>
-                              </div>
-                            </li>
-                          </ul>
-                        </div>
-                        <button class='swiper-button-next'></button>
-                        <button class='swiper-button-prev'></button>
-                        <span class='swiper-pagination'></span>
-                      </div>
-                    </li>
-                    <li class="tabs-content__item" data-tab-content="2">
-                      <div class='swiper-box'>
-                        <div class='swiper-container'>
-                          <ul class='swiper-wrapper'>
-                            <li class='swiper-slide'></li>
-                          </ul>
-                        </div>
-                        <button class='swiper-button-next'></button>
-                        <button class='swiper-button-prev'></button>
-                        <span class='swiper-pagination'></span>
-                      </div>
-                    </li>
-                    <li class="tabs-content__item" data-tab-content="3">
-                      <div class='swiper-box'>
-                        <div class='swiper-container'>
-                          <ul class='swiper-wrapper'>
-                            <li class='swiper-slide'></li>
-                          </ul>
-                        </div>
-                        <button class='swiper-button-next'></button>
-                        <button class='swiper-button-prev'></button>
-                        <span class='swiper-pagination'></span>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-        <section class="index-third">
-          <div class="container">
-            <div class="index-second__box">
-              <div class="main-top">
-                <h4 class="main-top__title">Ready to Sell!</h4>
-                <p class="main-top__about">Let’s tour and see our house!</p>
-                <span class="main-top__info">Houses recommended by our partners that have been curated to become the home of your dreams!</span>
-              </div>
-            </div>
-          </div>
-        </section>
+        </div>
       </div>
     </section>
+
+
+    <section class="index-second">
+      <div class="container">
+        <div class="index-second__box">
+          <div class="main-top">
+            <h4 class="main-top__title">Our Recommendation</h4>
+            <p class="main-top__about">Featured House</p>
+          </div>
+          <div class="default-class" data-tabs-parrent>
+            <ul class="tabs-nav houses-list">
+              <li class="tabs-nav__item">
+                <button class="tabs-nav__btn active houses-item" type="button" data-tab="1">
+                  <svg width='24' height='24'>
+                    <use href='img/sprite/sprite.svg#house-fill'></use>
+                  </svg>House</button>
+              </li>
+              <li class="tabs-nav__item">
+                <button class="tabs-nav__btn houses-item" type="button" data-tab="2">
+                  <svg width='24' height='24'>
+                    <use href='img/sprite/sprite.svg#villa'></use>
+                  </svg>Villa
+                </button>
+              </li>
+              <li class="tabs-nav__item">
+                <button class="tabs-nav__btn houses-item" type="button" data-tab="3">
+                  <svg width='24' height='24'>
+                    <use href='img/sprite/sprite.svg#apartment'></use>
+                  </svg>Apartment
+                </button>
+              </li>
+            </ul>
+            <ul class="tabs-content">
+              <li class="tabs-content__item active" data-tab-content="1">
+                <div class='swiper-box'>
+                  <div class='main-slider swiper-container'>
+                    <ul class='swiper-wrapper'>
+                      <li class='swiper-slide'>
+                        <div class="houseCard">
+                          <div class="houseCard__image">
+                            <picture>
+                              <source type='image/webp' srcset='img/s2/hs2-1.webp'>
+                              <img width='340' height='382' src='img/s2/hs2-1.png' alt='house'>
+                            </picture>
+                          </div>
+                          <div class="houseCard__info">
+                            <span class="houseCard__title">Roselands House</span> 
+                            <span class="houseCard__cost">
+                              <b>$</b>35.000.000</span>
+                          </div>
+                          <div class="houseCard__owner">
+                            <div class="houseCard__owner-pic">
+                              <picture>
+                                <source type='image/webp' srcset='img/s2/face1.webp'>
+                                <img width='40' height='40' src='img/s2/face1.png' alt='image'>
+                              </picture>
+                            </div>
+                            <span class="houseCard__surname">Dianne Russell</span>
+                            <span class="houseCard__city">Manchester, Kentucky</span>
+                          </div>
+                        </div>
+                      </li>
+                      <li class='swiper-slide'>
+                        <div class="houseCard">
+                          <div class="houseCard__image">
+                            <picture>
+                              <source type='image/webp' srcset='img/s2/hs2-2.webp'>
+                              <img width='340' height='382' src='img/s2/hs2-2.png' alt='house'>
+                            </picture>
+                          </div>
+                          <div class="houseCard__info">
+                            <span class="houseCard__title">Woodlandside</span> 
+                            <span class="houseCard__cost">
+                              <b>$</b>20.000.000</span>
+                          </div>
+                          <div class="houseCard__owner">
+                            <div class="houseCard__owner-pic">
+                              <picture>
+                                <source type='image/webp' srcset='img/s2/face2.webp'>
+                                <img width='40' height='40' src='img/s2/face2.png' alt='image'>
+                              </picture>
+                            </div>
+                            <span class="houseCard__surname">Robert Fox</span>
+                            <span class="houseCard__city">Dr. San Jose, South Dakota</span>
+                          </div>
+                        </div>
+                      </li>
+                      <li class='swiper-slide'>
+                        <div class="houseCard">
+                          <div class="houseCard__image">
+                            <picture>
+                              <source type='image/webp' srcset='img/s2/hs2-3.webp'>
+                              <img width='340' height='382' src='img/s2/hs2-3.png' alt='house'>
+                            </picture>
+                          </div>
+                          <div class="houseCard__info">
+                            <span class="houseCard__title">Roselands House</span> 
+                            <span class="houseCard__cost">
+                              <b>$</b>44.000.000</span>
+                          </div>
+                          <div class="houseCard__owner">
+                            <div class="houseCard__owner-pic">
+                              <picture>
+                                <source type='image/webp' srcset='img/s2/face3.webp'>
+                                <img width='40' height='40' src='img/s2/face3.png' alt='image'>
+                              </picture>
+                            </div>
+                            <span class="houseCard__surname">Ronald Richards</span>
+                            <span class="houseCard__city">Santa Ana, Illinois</span>
+                          </div>
+                        </div>
+                      </li>
+                      <li class='swiper-slide'>
+                        <div class="houseCard">
+                          <div class="houseCard__image">
+                            <picture>
+                              <source type='image/webp' srcset='img/s2/hs2-4.webp'>
+                              <img width='340' height='382' src='img/s2/hs2-4.png' alt='house'>
+                            </picture>
+                          </div>
+                          <div class="houseCard__info">
+                            <span class="houseCard__title">Cosmo's House</span> 
+                            <span class="houseCard__cost">
+                              <b>$</b>22.000.000</span>
+                          </div>
+                          <div class="houseCard__owner">
+                            <div class="houseCard__owner-pic">
+                              <picture>
+                                <source type='image/webp' srcset='img/s2/face4.webp'>
+                                <img width='40' height='40' src='img/s2/face4.png' alt='image'>
+                              </picture>
+                            </div>
+                            <span class="houseCard__surname">Jenny Wilson</span>
+                            <span class="houseCard__city">Preston Rd. Inglewood, Maine 98380</span>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <button class='swiper-button-next mainSliderBtn mainSliderNext'></button>
+                  <button class='swiper-button-prev mainSliderBtn mainSliderBtn--mode mainSliderPrev'></button>
+                  <span class='swiper-pagination'></span>
+                </div>
+              </li>
+              <li class="tabs-content__item" data-tab-content="2">2</li>
+              <li class="tabs-content__item" data-tab-content="3">3</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+    <section class="index-third">
+      <div class="container">
+        <div class="index-second__box">
+          <div class="main-top main-top--v2">
+            <h4 class="main-top__title">Ready to Sell!</h4>
+            <p class="main-top__about">Let’s tour and see our house!</p>
+            <span class="main-top__info">Houses recommended by our partners that have been curated to become the
+              home of your dreams!</span>
+            <span class="main-top__detail">House Detail</span>
+          </div>
+          <ul class="detail">
+            <li class="detail__item">
+              <svg width='32' height='32'>
+                <use href='img/sprite/sprite.svg#bed'></use>
+              </svg>
+              <span class="detail__info">4 Bedrooms</span>
+            </li>
+            <li class="detail__item"><svg width='32' height='32'>
+                <use href='img/sprite/sprite.svg#bath'></use>
+              </svg>
+              <span class="detail__info">2 Bathrooms</span>
+            </li>
+            <li class="detail__item"><svg width='32' height='32'>
+                <use href='img/sprite/sprite.svg#garage'></use>
+              </svg>
+              <span class="detail__info">1 Carport</span>
+            </li>
+            <li class="detail__item"><svg width='32' height='32'>
+                <use href='img/sprite/sprite.svg#stairs'></use>
+              </svg>
+              <span class="detail__info">2 Floors</span>
+            </li>
+          </ul>
+          <div class="houseCard__owner">
+            <picture>
+              <source type='image/webp' srcset='img/s2/face1.webp'>
+              <img width='40' height='40' src='img/s2/face1.png' alt='image'>
+            </picture>
+            <div class="houseCard__name">
+              <p class="houseCard__surname">Dianne Russell</p>
+              <p class="houseCard__city">Manager Director</p>
+            </div>
+
+            <button class="green-btn">
+              <svg width='24' height='24'>
+                <use href='img/sprite/sprite.svg#call'></use>
+              </svg>Contact Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="index-fourth">
+      <div class="container">
+        <div class="index-fourth__box">
+          <div class="main-top">
+            <h4 class="main-top__title">See Our Review</h4>
+            <p class="main-top__about">What Our User Say About Us</p>
+          </div>
+          <div class='swiper-box'>
+            <div class='second-slider swiper-container'>
+              <ul class='swiper-wrapper'>
+                <li class='swiper-slide'>
+                  <div class="review">
+                    <div class="review-img">
+                      <picture>
+                        <source type='image/webp' srcset='img/s4/house1.webp'>
+                        <img width='740' height='400' src='img/s4/house1.png' alt='image'>
+                      </picture>
+                    </div>
+                    <div class="review-box">
+                      <div class="review-comment">
+                        <p class="review-title">Best! I got the house I wanted through Hounter</p>
+                        <span class="review-about">Through this website I can get a house with the type and
+                          specifications I want very easily, without a complicated process to be able to find
+                          information on the house we want.</span>
+                          <div class="houseCard__owner">
+                            <div class="houseCard__owner-pic">
+                              <picture>
+                                <source type='image/webp' srcset='img/s2/face1.webp'>
+                                <img width='40' height='40' src='img/s2/face1.png' alt='image'>
+                              </picture>
+                            </div>
+                            <span class="houseCard__surname">Dianne Russell</span>
+                            <span class="houseCard__city">Manchester, Kentucky</span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class='swiper-slide'>
+                  <div class="review">
+                    <div class="review-img">
+                      <picture>
+                        <source type='image/webp' srcset='img/s4/house2.webp'>
+                        <img width='740' height='400' src='img/s4/house2.png' alt='image'>
+                      </picture>
+                    </div>
+                    <div class="review-box">
+                      <div class="review-comment">
+                        <p class="review-title">Best! I got the house I wanted through Hounter</p>
+                        <span class="review-about">Through this website I can get a house with the type and
+                          specifications I want very easily, without a complicated process to be able to find
+                          information on the house we want.</span>
+                          <div class="houseCard__owner">
+                            <div class="houseCard__owner-pic">
+                              <picture>
+                                <source type='image/webp' srcset='img/s2/face1.webp'>
+                                <img width='40' height='40' src='img/s2/face1.png' alt='image'>
+                              </picture>
+                            </div>
+                            <span class="houseCard__surname">Dianne Russell</span>
+                            <span class="houseCard__city">Manchester, Kentucky</span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class='swiper-slide'>
+                  <div class="review">
+                    <div class="review-img">
+                      <picture>
+                        <source type='image/webp' srcset='img/s4/house3.webp'>
+                        <img width='740' height='400' src='img/s4/house3.png' alt='image'>
+                      </picture>
+                    </div>
+                    <div class="review-box">
+                      <div class="review-comment">
+                        <p class="review-title">Best! I got the house I wanted through Hounter</p>
+                        <span class="review-about">Through this website I can get a house with the type and
+                          specifications I want very easily, without a complicated process to be able to find
+                          information on the house we want.</span>
+                          <div class="houseCard__owner">
+                            <div class="houseCard__owner-pic">
+                              <picture>
+                                <source type='image/webp' srcset='img/s2/face1.webp'>
+                                <img width='40' height='40' src='img/s2/face1.png' alt='image'>
+                              </picture>
+                            </div>
+                            <span class="houseCard__surname">Dianne Russell</span>
+                            <span class="houseCard__city">Manchester, Kentucky</span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <button class='swiper-button-next'></button>
+            <button class='swiper-button-prev'></button>
+            <span class='swiper-pagination'></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="index-fifth">
+      <div class="container">
+        <div class="index-fifth__box">
+          <div class="main-top">
+            <h4 class="main-top__title">See tips and trick from our partnership</h4>
+            <p class="main-top__about">Find out more about<br>
+              selling and buying homes</p>
+            <button class="green-btn">More Artikel</button>
+          </div>
+          <div class="house-commentary">
+            <ul class="house-commentary__list">
+              <li class="house-commentary__list-item">
+                <div class="comment">
+                  <div class="comment-box">
+                    <div class="comment-img">
+                      <picture>
+                        <source type='image/webp' srcset='img/s5/s5h1.webp'>
+                        <img width='200' height='144' src='img/s5/s5h1.png' alt='image'>
+                      </picture>
+                    </div>
+                    <div class="comment-info">
+                      <div class="comment-person">
+                        <div class="comment-person__face">
+                          <picture>
+                            <source type='image/webp' srcset='img/s5/f1.webp'>
+                            <img width='32' height='32' src='img/s5/f1.png' alt='image'>
+                          </picture>
+                        </div>
+                        <span class="comment-name">Dianne Russell</span>
+                      </div>
+                      <p class="comment-about">The things we need to check when we want to buy a house</p>
+                      <div class="comment-date">
+                        <svg width='24' height='24'>
+                          <use href='img/sprite/sprite.svg#time'></use>
+                        </svg>
+                        <span class="comment-date__time">4 min read</span>
+                        <span class="comment-date__time">25 Apr 2021</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="house-commentary__list-item">
+                <div class="comment">
+                  <div class="comment-box">
+                    <div class="comment-img">
+                      <picture>
+                        <source type='image/webp' srcset='img/s5/s5h2.webp'>
+                        <img width='200' height='144' src='img/s5/s5h2.png' alt='image'>
+                      </picture>
+                    </div>
+                    <div class="comment-info">
+                      <div class="comment-person">
+                        <div class="comment-person__face">
+                          <picture>
+                            <source type='image/webp' srcset='img/s5/f2.webp'>
+                            <img width='32' height='32' src='img/s5/f2.png' alt='image'>
+                          </picture>
+                        </div>
+                        <span class="comment-name">Courtney Henry</span>
+                      </div>
+                      <p class="comment-about">7 Ways to distinguish the quality of the house we want to buy</p>
+                      <div class="comment-date">
+                        <svg width='24' height='24'>
+                          <use href='img/sprite/sprite.svg#time'></use>
+                        </svg>
+                        <span class="comment-date__time">6 min read</span>
+                        <span class="comment-date__time">24 Apr 2021</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="house-commentary__list-item">
+                <div class="comment">
+                  <div class="comment-box">
+                    <div class="comment-img">
+                      <picture>
+                        <source type='image/webp' srcset='img/s5/s5h3.webp'>
+                        <img width='200' height='144' src='img/s5/s5h3.png' alt='image'>
+                      </picture>
+                    </div>
+                    <div class="comment-info">
+                      <div class="comment-person">
+                        <div class="comment-person__face">
+                          <picture>
+                            <source type='image/webp' srcset='img/s5/f3.webp'>
+                            <img width='32' height='32' src='img/s5/f3.png' alt='image'>
+                          </picture>
+                        </div>
+                        <span class="comment-name">Darlene Robertson</span>
+                      </div>
+                      <p class="comment-about">The best way to know the quality of the house we want to buy</p>
+                      <div class="comment-date">
+                        <svg width='24' height='24'>
+                          <use href='img/sprite/sprite.svg#time'></use>
+                        </svg>
+                        <span class="comment-date__time">2 min read</span>
+                        <span class="comment-date__time">24 Apr 2021</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="bigComment">
+              <div class="comment">
+                <div class="comment-box comment-box--mode">
+                  <div class="comment-img">
+                    <picture>
+                      <source type='image/webp' srcset='img/s5/s5h4.webp'>
+                      <img width='560' height='280' src='img/s5/s5h4.png' alt='image'>
+                    </picture>
+                  </div>
+                  <div class="comment-info comment-info--mode">
+                    <div class="comment-person">
+                      <div class="comment-person__face">
+                        <picture>
+                          <source type='image/webp' srcset='img/s5/f4.webp'>
+                          <img width='32' height='32' src='img/s5/f4.png' alt='image'>
+                        </picture>
+                      </div>
+                      <span class="comment-name">Cameron Williamson</span>
+                    </div>
+                    <p class="comment-about">12 Things to know before buying a house</p>
+                    <span class="comment-text">Want to buy a house but are unsure about what we should know, here I will
+                      try to explain what we should know and check when we want to buy a house</span>
+                    <div class="comment-date">
+                      <svg width='24' height='24'>
+                        <use href='img/sprite/sprite.svg#time'></use>
+                      </svg>
+                      <span class="comment-date__time">8 min read</span>
+                      <span class="comment-date__time">25 Apr 2021</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
   </main>
 
   @include('partials/footer.html')

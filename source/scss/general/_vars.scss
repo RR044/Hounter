@@ -4,7 +4,7 @@
 }
 :root {
 // --------------- default global variable ---------------
-  --body-bg: #E5E5E5;
+  --body-bg: #ffffff;
   --footer-bg: #E5E5E5;
   --body-font-size: 16px;
   --content-width: 1200px;
@@ -51,16 +51,16 @@
   --cl-c: #{HexToRGB(#1B1C57)}; // rgba(var(--cl-c),1.0);
   --cl-d: #{HexToRGB(#3C4563)}; // rgba(var(--cl-d),1.0);
   --cl-e: #{HexToRGB(#888B97)}; // rgba(var(--cl-e),1.0);
-  --cl-f: #{HexToRGB(#64748B)}; // rgba(var(--cl-f),1.0);
-  --cl-g: #{HexToRGB(#161F35)}; // rgba(var(--cl-g),1.0);
-  --cl-k: #{HexToRGB(#172746)}; // rgba(var(--cl-k),1.0);
+  --cl-f: #{HexToRGB(#626687)}; // rgba(var(--cl-f),1.0);
+  --cl-g: #{HexToRGB(#888B97)}; // rgba(var(--cl-g),1.0);
+  --cl-k: #{HexToRGB(#0E1735)}; // rgba(var(--cl-k),1.0);
   --cl-l: #{HexToRGB(#2E5495)}; // rgba(var(--cl-l),1.0);
   --cl-m: #{HexToRGB(#58BF00)}; // rgba(var(--cl-m),1.0);
   --cl-n: #{HexToRGB(#0B101E)}; // rgba(var(--cl-n),1.0);
   --cl-o: #{HexToRGB(#D72F33)}; // rgba(var(--cl-o),1.0);
   --cl-p: #{HexToRGB(#25344A)}; // rgba(var(--cl-p),1.0);
-  --cl-q: #{HexToRGB(#ecbe08)}; // rgba(var(--cl-q),1.0);
-  --cl-r: #{HexToRGB(#0B1122)}; // rgba(var(--cl-r),1.0);
+  --cl-q: #{HexToRGB(#10B981)}; // rgba(var(--cl-q),1.0);
+  --cl-r: #{HexToRGB(#E0E3EB)}; // rgba(var(--cl-r),1.0);
 
 
 // --------------- default background cl variable ---------------

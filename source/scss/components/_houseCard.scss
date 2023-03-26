@@ -26,8 +26,14 @@
     }
 
     &__owner {
-        display: flex;
-        grid-gap: 16px;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-gap: 4px 16px;
+
+        &-pic {
+            order: 1;
+            grid-row: span 2;
+        }
     }
 
     &__name {
@@ -42,6 +48,7 @@
         font-size: 18px;
         line-height: 24px;
         color: rgba(var(--cl-c),1.0);
+        order: 1;
     }
 
     &__city {
@@ -51,5 +58,6 @@
         font-size: 14px;
         line-height: 22px;
         color: rgba(var(--cl-e),1.0);
+        order: 2;
     }
 }

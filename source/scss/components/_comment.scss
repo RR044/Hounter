@@ -1,0 +1,83 @@
+.comment {
+    &-box {
+        display: flex;
+        grid-gap: 32px;
+
+        &--mode {
+            display: flex;
+            flex-direction: column;
+            grid-gap: 24px;
+        }
+    }
+
+    &-img {
+        display: flex;
+        align-items: center;
+    }
+
+    &-info {
+        max-width: 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &--mode {
+            max-width: 560px;
+            grid-gap: 12px;
+        }
+    }
+
+    &-person {
+        display: flex;
+        align-items: center;
+        grid-gap: 16px;
+
+
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: rgba(var(--cl-d),1.0);
+
+        &__face {
+            display: flex;
+            align-items: center;
+            width: fit-content;
+        }
+    }
+
+    &-about {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: rgba(var(--cl-c),1.0);
+    }
+
+    &-text {
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: rgba(var(--cl-f),1.0);
+    }
+
+    &-date {
+        display: flex;
+        align-items: center;
+        grid-gap: 12px;
+
+        &__time {
+            font-family: 'Lexend';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: rgba(var(--cl-g),1.0);
+        }
+    }
+}

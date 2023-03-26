@@ -5,8 +5,10 @@ footer {
 
 .footer {
 
-  &__box {
+  &-box {
     display: flex;
+    justify-content: space-between;
+
   }
 
   &__text {
@@ -44,4 +46,36 @@ footer {
   }
 }
 
+.nav-item {
+  max-height: 150px;
+}
+
+.accordion {
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 18px;
+    padding-top: 20px;
+  }
+  &__main {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: rgba(var(--cl-k),1.0);
+  }
+
+  &__secondary {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: rgba(var(--cl-g),1.0);
+  }
+}
 

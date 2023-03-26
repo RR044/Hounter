@@ -1,0 +1,64 @@
+.houses {
+    &-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-gap: 32px;
+    
+    }
+
+    &-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-gap: 8px;
+        padding: 12px 24px;
+
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: rgba(var(--cl-e),1.0);
+
+        border: 1px solid rgba(var(--cl-r),1.0);
+        border-radius: 32px;
+
+        svg {
+            fill: #888B97;
+        }
+
+
+        &.active {
+            background-color: #D1FAE5;
+            color: rgba(var(--cl-q),1.0);
+            border: none;
+            svg {
+                fill:#10B981;
+            }
+        }
+    }
+}
+
+.mainSliderBtn {
+    &::before {
+        position: absolute;
+        content: '';
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='18' fill='none'%3E%3Cpath fill='%233C4563' d='M7.508 17.165a1.152 1.152 0 0 0 1.025-.621 1.17 1.17 0 0 0-.134-1.289l-5.183-6.24 4.997-6.25a1.166 1.166 0 0 0-.173-1.642 1.155 1.155 0 0 0-1.69.175L.764 8.283a1.169 1.169 0 0 0 0 1.478l5.785 6.984a1.158 1.158 0 0 0 .96.42Z'/%3E%3C/svg%3E");
+        width: 60px;
+        height: 52px;
+        padding: 12px 16px;
+        border-radius: 32px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #10B981;
+
+        &.active {
+            background-color: #a22fb4;
+        }
+    }
+
+    &--mode {
+        rotate: 180deg;
+    }
+}

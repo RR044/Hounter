@@ -6,7 +6,7 @@ export default {
   htmlEl: document.documentElement,
   bodyEl: document.body,
   overlay: document.querySelector('[data-overlay]'),
-  accParrent: [...document.querySelectorAll("[data-accordion-init]")],
+  accParrent: [...document.querySelectorAll("[accordion-init]")],
   // selectParrent: [...document.querySelectorAll("[data-select]")],
   tabsParrents: [...document.querySelectorAll("[data-tabs-parrent]")],
   modals: [...document.querySelectorAll('[data-popup]')],
@@ -21,7 +21,8 @@ export default {
 
   header: document.querySelector("header"),
   game: document.getElementById('game'),
-  mainSlider: document.querySelector('.main-slider .swiper-container'),
+  mainSlider: document.querySelector('.main-slider'),
+  secondSlider: document.querySelector('.second-slider'),
   programBox: document.querySelector('.program-section__sliders'),
   triggerSocial: document.querySelector('.trigger-social'),
   closeSocial: document.querySelector('.header-social__close'),
