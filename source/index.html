@@ -53,21 +53,46 @@
               </li>
             </ul>
           </div>
-          <div class="subscribers">
-            <div class="subscribers-photo">
+          <div class="findReview">
+            <div class="findReview-photo">
               <img src="/img/s1/hs1.png" alt="house">
-              <ul class="subscribers-info">
-                <li class="subscribers-info__item">
-                  <svg width='112' height='56'>
-                    <use href='img/sprite/sprite.svg#tripple'></use>
-                  </svg>
-                  <div class="subscribers-about">
-                    <h3>1K+ People</h3>
-                    <p>Successfully Getting Home</p>
+              <ul class="findReview-list">
+                <li class="findReview-item">
+                  <div class="findReview-logo">
+                    <picture>
+                      <source type='image/webp' srcset='img/s1/triple.webp'>
+                      <img width='112' height='56' src='img/s1/triple.png' alt='image'>
+                    </picture>
+                  </div>
+                  <div class="findReview-about">
+                    <h3 class="findReview-counter">1K+ People</h3>
+                    <p class="findReview-text">Successfully Getting Home</p>
                   </div>
                 </li>
-                <li class="subscribers-info__item"></li>
-                <li class="subscribers-info__item"></li>
+                <li class="findReview-item">
+                  <div class="findReview-logo">
+                    <picture>
+                      <source type='image/webp' srcset='img/s1/hs01.webp'>
+                      <img width='56' height='56' src='img/s1/hs01.png' alt='image'>
+                    </picture>
+                  </div>
+                  <div class="findReview-about">
+                    <h3 class="findReview-counter">56 Houses</h3>
+                    <p class="findReview-text">Sold Monthly</p>
+                  </div>
+                </li>
+                <li class="findReview-item">
+                  <div class="findReview-logo">
+                    <picture>
+                      <source type='image/webp' srcset='img/s1/face01.webp'>
+                      <img width='56' height='56' src='img/s1/face01.png' alt='image'>
+                    </picture>
+                  </div>
+                  <div class="findReview-about">
+                    <h3 class="findReview-counter">4K+</h3>
+                    <p class="findReview-text">People Looking for New Homes</p>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
@@ -207,7 +232,7 @@
                               </picture>
                             </div>
                             <span class="houseCard__surname">Jenny Wilson</span>
-                            <span class="houseCard__city">Preston Rd. Inglewood, Maine 98380</span>
+                            <span class="houseCard__city">Preston Rd. Inglewood, Maine</span>
                           </div>
                         </div>
                       </li>
@@ -231,53 +256,90 @@
 
     <section class="index-third">
       <div class="container">
-        <div class="index-second__box">
-          <div class="main-top main-top--v2">
-            <h4 class="main-top__title">Ready to Sell!</h4>
-            <p class="main-top__about">Let’s tour and see our house!</p>
-            <span class="main-top__info">Houses recommended by our partners that have been curated to become the
-              home of your dreams!</span>
-            <span class="main-top__detail">House Detail</span>
-          </div>
-          <ul class="detail">
-            <li class="detail__item">
-              <svg width='32' height='32'>
-                <use href='img/sprite/sprite.svg#bed'></use>
-              </svg>
-              <span class="detail__info">4 Bedrooms</span>
-            </li>
-            <li class="detail__item"><svg width='32' height='32'>
-                <use href='img/sprite/sprite.svg#bath'></use>
-              </svg>
-              <span class="detail__info">2 Bathrooms</span>
-            </li>
-            <li class="detail__item"><svg width='32' height='32'>
-                <use href='img/sprite/sprite.svg#garage'></use>
-              </svg>
-              <span class="detail__info">1 Carport</span>
-            </li>
-            <li class="detail__item"><svg width='32' height='32'>
-                <use href='img/sprite/sprite.svg#stairs'></use>
-              </svg>
-              <span class="detail__info">2 Floors</span>
-            </li>
-          </ul>
-          <div class="houseCard__owner">
-            <picture>
-              <source type='image/webp' srcset='img/s2/face1.webp'>
-              <img width='40' height='40' src='img/s2/face1.png' alt='image'>
-            </picture>
-            <div class="houseCard__name">
-              <p class="houseCard__surname">Dianne Russell</p>
-              <p class="houseCard__city">Manager Director</p>
+        <div class="index-third__box">
+          <div class="interior-left">
+            <div class="main-top main-top--v2">
+              <h4 class="main-top__title">Ready to Sell!</h4>
+              <p class="main-top__about">Let’s tour and see our house!</p>
+              <span class="main-top__info">Houses recommended by our partners that have<br> been curated to become the
+                home of your dreams!</span>
+              <span class="main-top__detail">House Detail</span>
             </div>
-
-            <button class="green-btn">
-              <svg width='24' height='24'>
-                <use href='img/sprite/sprite.svg#call'></use>
-              </svg>Contact Now
-            </button>
+            <ul class="detail">
+              <li class="detail__item">
+                <svg width='32' height='32'>
+                  <use href='img/sprite/sprite.svg#bed'></use>
+                </svg>
+                <span class="detail__info">4 Bedrooms</span>
+              </li>
+              <li class="detail__item"><svg width='32' height='32'>
+                  <use href='img/sprite/sprite.svg#bath'></use>
+                </svg>
+                <span class="detail__info">2 Bathrooms</span>
+              </li>
+              <li class="detail__item"><svg width='32' height='32'>
+                  <use href='img/sprite/sprite.svg#garage'></use>
+                </svg>
+                <span class="detail__info">1 Carport</span>
+              </li>
+              <li class="detail__item"><svg width='32' height='32'>
+                  <use href='img/sprite/sprite.svg#stairs'></use>
+                </svg>
+                <span class="detail__info">2 Floors</span>
+              </li>
+            </ul>
+            <div class="detail-owner houseCard__owner">
+              <picture>
+                <source type='image/webp' srcset='img/s2/face1.webp'>
+                <img width='40' height='40' src='img/s2/face1.png' alt='image'>
+              </picture>
+              <div class="houseCard__name">
+                <p class="houseCard__surname">Dianne Russell</p>
+                <p class="houseCard__city">Manager Director</p>
+              </div>
+              <button class="green-btn">
+                <svg width='24' height='24'>
+                  <use href='img/sprite/sprite.svg#call'></use>
+                </svg>Contact Now
+              </button>
+            </div>
           </div>
+          <div class="interior-right">
+            <div class="interior-block">
+              <picture>
+                <source type='image/webp' srcset='img/s3/Rectangle 17.webp'>
+                <img width='488' height='416' src='img/s3/Rectangle 17.png' alt='image'>
+              </picture>
+            </div>
+            <ul class="interior-list">
+              <li class="interior-item">
+                <div class="interior-picture">
+                  <picture>
+                    <source type='image/webp' srcset='img/s3/Rectangle 18.webp'>
+                    <img width='296' height='168' src='img/s3/Rectangle 18.png' alt='image'>
+                  </picture>
+                </div>
+              </li>
+              <li class="interior-item">
+                <div class="interior-picture">
+                  <picture>
+                    <source type='image/webp' srcset='img/s3/Rectangle 19.webp'>
+                    <img width='96' height='80' src='img/s3/Rectangle 19.png' alt='image'>
+                  </picture>
+                </div>
+              </li>
+              <li class="interior-item">
+                <div class="interior-picture">
+                  <picture>
+                    <source type='image/webp' srcset='img/s3/Rectangle 20.webp'>
+                    <img width='96' height='80' src='img/s3/Rectangle 20.png' alt='image'>
+                  </picture>
+                </div>
+              </li>
+            </ul>
+
+          </div>
+          
         </div>
       </div>
     </section>
@@ -303,19 +365,17 @@
                     </div>
                     <div class="review-box">
                       <div class="review-comment">
-                        <p class="review-title">Best! I got the house I wanted through Hounter</p>
-                        <span class="review-about">Through this website I can get a house with the type and
-                          specifications I want very easily, without a complicated process to be able to find
-                          information on the house we want.</span>
+                        <p class="review-title">My house sold out fast!</p>
+                        <span class="review-about">I was finally able to sell my house quickly through Hounter by immediately setting me up with people who wanted my house. I also do not get a discount from the sale of my house. Awesome!</span>
                           <div class="houseCard__owner">
                             <div class="houseCard__owner-pic">
                               <picture>
-                                <source type='image/webp' srcset='img/s2/face1.webp'>
-                                <img width='40' height='40' src='img/s2/face1.png' alt='image'>
+                                <source type='image/webp' srcset='img/s4/face1.webp'>
+                                <img width='40' height='40' src='img/s4/face1.png' alt='image'>
                               </picture>
                             </div>
-                            <span class="houseCard__surname">Dianne Russell</span>
-                            <span class="houseCard__city">Manchester, Kentucky</span>
+                            <span class="houseCard__surname">Courtney Henry</span>
+                            <span class="houseCard__city">CEO Andarafish</span>
                           </div>
                       </div>
                     </div>
@@ -338,8 +398,8 @@
                           <div class="houseCard__owner">
                             <div class="houseCard__owner-pic">
                               <picture>
-                                <source type='image/webp' srcset='img/s2/face1.webp'>
-                                <img width='40' height='40' src='img/s2/face1.png' alt='image'>
+                                <source type='image/webp' srcset='img/s4/face2.webp'>
+                                <img width='40' height='40' src='img/s4/face2.png' alt='image'>
                               </picture>
                             </div>
                             <span class="houseCard__surname">Dianne Russell</span>
@@ -359,19 +419,17 @@
                     </div>
                     <div class="review-box">
                       <div class="review-comment">
-                        <p class="review-title">Best! I got the house I wanted through Hounter</p>
-                        <span class="review-about">Through this website I can get a house with the type and
-                          specifications I want very easily, without a complicated process to be able to find
-                          information on the house we want.</span>
+                        <p class="review-title">Through the Hounter, I can get a house for my self</p>
+                        <span class="review-about">By looking for information about what kind of house we want, we managed to get the house we wanted very quickly, and directly connected with the seller to be able to ask about the details, very helpful!</span>
                           <div class="houseCard__owner">
                             <div class="houseCard__owner-pic">
                               <picture>
-                                <source type='image/webp' srcset='img/s2/face1.webp'>
-                                <img width='40' height='40' src='img/s2/face1.png' alt='image'>
+                                <source type='image/webp' srcset='img/s4/face3.webp'>
+                                <img width='40' height='40' src='img/s4/face3.png' alt='image'>
                               </picture>
                             </div>
-                            <span class="houseCard__surname">Dianne Russell</span>
-                            <span class="houseCard__city">Manchester, Kentucky</span>
+                            <span class="houseCard__surname">Esther Howard</span>
+                            <span class="houseCard__city">Head of Marketing</span>
                           </div>
                       </div>
                     </div>
@@ -527,6 +585,94 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="index-subscribe" >
+      <div class="container">
+        <div class="subscribe-main">
+        </div>
+        <div class="index-subscribe__box">
+          <ul class="subscribers-list">
+            <li class="subscribers-item">
+              <div class="subscribers-box">
+                <picture>
+                  <source type='image/webp' srcset='img/s6/p1.webp'>
+                  <img width='81' height='81' src='img/s6/p1.png' alt='image'>
+                </picture>
+              </div>
+            </li>
+            <li class="subscribers-item">
+              <div class="subscribers-box">
+                <picture>
+                  <source type='image/webp' srcset='img/s6/f1.webp'>
+                  <img width='36' height='36' src='img/s6/f1.png' alt='image'>
+                </picture>
+              </div>
+            </li>
+            <li class="subscribers-item">
+              <div class="subscribers-box">
+                <picture>
+                  <source type='image/webp' srcset='img/s6/f2.webp'>
+                  <img width='36' height='36' src='img/s6/f2.' alt='image'>
+                </picture>
+              </div>
+            </li>
+            <li class="subscribers-item">
+              <div class="subscribers-box">
+                <picture>
+                  <source type='image/webp' srcset='img/s6/p2.webp'>
+                  <img width='54' height='54' src='img/s6/p2.png' alt='image'>
+                </picture>
+              </div>
+            </li>
+          </ul>
+          <div class="main-top">
+            <p class="main-top__about">Subscribe For More Info<br>
+              and update from Hounter</p>
+              <div class="input-group">
+                <svg width='24' height='24'>
+                  <use href='img/sprite/sprite.svg#email'></use>
+                </svg>
+                <input type="text" class="form-control custom-search-input" placeholder="Your email here">
+                <button class="green-btn" type="submit">Subsribe Now</button>  
+              </div>
+          </div>
+          <ul class="subscribers-list">
+            <li class="subscribers-item">
+              <div class="subscribers-box">
+                <picture>
+                  <source type='image/webp' srcset='img/s6/p3.webp'>
+                  <img width='81' height='81' src='img/s6/p3.png' alt='image'>
+                </picture>
+              </div>
+            </li>
+            <li class="subscribers-item">
+              <div class="subscribers-box">
+                <picture>
+                  <source type='image/webp' srcset='img/s6/f3.webp'>
+                  <img width='36' height='36' src='img/s6/f3.png' alt='image'>
+                </picture>
+              </div>
+            </li>
+            <li class="subscribers-item">
+              <div class="subscribers-box">
+                <picture>
+                  <source type='image/webp' srcset='img/s6/f4.webp'>
+                  <img width='36' height='36' src='img/s6/f4.' alt='image'>
+                </picture>
+              </div>
+            </li>
+            <li class="subscribers-item">
+              <div class="subscribers-box">
+                <picture>
+                  <source type='image/webp' srcset='img/s6/p4.webp'>
+                  <img width='54' height='54' src='img/s6/p4.png' alt='image'>
+                </picture>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </section>

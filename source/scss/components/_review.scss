@@ -1,18 +1,22 @@
 .review {
+    width: 740px;
+    height: 505px;
 
     &-img {
         position: relative;
     }
 
     &-box {
-
         position: absolute;
-        top: 50%;
-        left: 5%;
+        top: 55%;
+        left: 50%;
+        transform: translateX(-50%);
         padding: 32px;
         width: 610px;
         background-color: rgba(var(--cl-a),1.0);
+        box-shadow: 0px 9px 32px rgba(89, 92, 219, 0.05);
         border-radius: 16px;
+        
     }
 
     &-title {

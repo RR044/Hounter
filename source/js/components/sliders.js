@@ -2,6 +2,7 @@ import Swiper from "../vendor/swiper";
 import vars from "../_vars";
 import { throttle } from "../functions/throttle";
 import { even } from "../functions/customFunctions";
+import { auto } from "@popperjs/core";
 
 const { mainSlider, secondSlider, programBox, newsInner } = vars;
 
@@ -17,7 +18,7 @@ new Swiper(mainSlider, {
   loop: true,
   observer: true,
   observeParents: true,
-  speed: 2000,
+  speed: 4000,
   parallax: true,
   autoplay: {
     delay: 2000,
@@ -32,15 +33,16 @@ new Swiper(mainSlider, {
 
 
 new Swiper(secondSlider, {
-  slidesPerView: 1,
+  slidesPerView: 1.6,
+  centeredSlides: true,
   spaceBetween: 56,
   loop: true,
   observer: true,
   observeParents: true,
-  speed: 2000,
+  speed: 4000,
   parallax: true,
   autoplay: {
-    delay: 2000,
+    delay: 4000,
   },
 });
 
