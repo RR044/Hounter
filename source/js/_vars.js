@@ -23,6 +23,8 @@ export default {
   game: document.getElementById('game'),
   mainSlider: document.querySelector('.main-slider'),
   secondSlider: document.querySelector('.second-slider'),
+  villaSlider: document.querySelector('.villa-slider'),
+  apartmentSlider: document.querySelector('.apartment-slider'),
   programBox: document.querySelector('.program-section__sliders'),
   triggerSocial: document.querySelector('.trigger-social'),
   closeSocial: document.querySelector('.header-social__close'),

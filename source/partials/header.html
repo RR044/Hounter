@@ -11,7 +11,13 @@
           <ul class="header-nav">
             <li class="header-nav__item"><a href="#">About Us</a></li>
             <li class="header-nav__item"><a href="#">Article</a></li>
-            <li class="header-nav__item"><a href="#">Property</a></li>
+            <li class="header-nav__item">
+                <ul class='accordion' data-single='true' data-breakpoint='576' accordion-init>
+                  <li class='accordion__item'>
+                    <button class='accordion__btn header-accordion' data-id='1'><a href="#">Property</a><span class="header-arrow"></span></button>
+                    <div class='accordion__content' data-content='1'>Property</div>
+                  </li>
+                </ul></li>
           </ul>
           <button class="header-nav__btn">Sign Up!</button>
         </div>

@@ -30,6 +30,19 @@
             left: 50%;
             transform: translateX(-50%)
         }
+
+        &--v2 {
+            &::before {
+                position: absolute;
+                content: '';
+                width: 32px;
+                height: 1px;
+                background: #F59E0B;
+                top: 8px;
+                left: -40px;
+                transform: translateY(-50%)
+            }
+        }
     }
 
     &__about {

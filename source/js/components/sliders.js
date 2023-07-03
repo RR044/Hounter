@@ -4,7 +4,7 @@ import { throttle } from "../functions/throttle";
 import { even } from "../functions/customFunctions";
 import { auto } from "@popperjs/core";
 
-const { mainSlider, secondSlider, programBox, newsInner } = vars;
+const { mainSlider, villaSlider, apartmentSlider, secondSlider, programBox, newsInner } = vars;
 
 if (mainSlider) {
   const newsSlider = mainSlider.querySelector('.swiper-container');
@@ -18,10 +18,10 @@ new Swiper(mainSlider, {
   loop: true,
   observer: true,
   observeParents: true,
-  speed: 4000,
+  speed: 3000,
   parallax: true,
   autoplay: {
-    delay: 2000,
+    delay: 1000,
   },
       navigation: {
       nextEl: '.mainSliderNext',
@@ -29,6 +29,43 @@ new Swiper(mainSlider, {
     }
 });
 }
+
+new Swiper(villaSlider, {
+  slidesPerView: 4,
+  spaceBetween: 30,
+  loop: true,
+  observer: true,
+  observeParents: true,
+  speed: 3000,
+  parallax: true,
+  autoplay: {
+    delay: 1000,
+  },
+      navigation: {
+      nextEl: '.mainSliderNext',
+      prevEl: '.mainSliderPrev',
+    }
+});
+
+new Swiper(apartmentSlider, {
+  slidesPerView: 4,
+  spaceBetween: 30,
+  loop: true,
+  observer: true,
+  observeParents: true,
+  speed: 3000,
+  parallax: true,
+  autoplay: {
+    delay: 1000,
+  },
+      navigation: {
+      nextEl: '.mainSliderNext',
+      prevEl: '.mainSliderPrev',
+    }
+});
+
+
+
 
 
 

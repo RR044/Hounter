@@ -14,7 +14,7 @@
   --container-width-mode: calc(var(--content-width-mode) + (var(--container-offset) * 2));
 
 // --------------- default JS variable ---------------
-  --header-height: 62px;
+  // --header-height: 46px;
 // --------------- default JS tablet variable ---------------
   // @media (max-width: 1024px) {
   //   --header-height: 65px;
@@ -40,7 +40,7 @@
 
 // --------------- default font-family variable ---------------
   --font-family: "Lexend" , sans-serif; // var(--font-family);
-  --font-family2: "Gilroy" , sans-serif; // var(--font-family2);
+  // --font-family2: "Gilroy" , sans-serif; // var(--font-family2);
 
 
 // --------------- default text color variable ---------------
